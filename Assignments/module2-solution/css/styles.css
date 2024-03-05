@@ -1,0 +1,56 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  .column {
+    float: left;
+    padding: 12px;
+  }
+}
+
+section {
+  border: 1px solid black;
+  font-family: Helvetica;
+  background-color: gray;
+
+  .title {
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+    float: right;
+  }
+  .section-content {
+    padding: 1em;
+    clear: both;
+  }
+}
+
+/********** Medium and Large devices only **********/
+@media (min-width: 992px) {
+  .col-md-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
