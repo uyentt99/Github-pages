@@ -1,1 +1,1 @@
-# Github page for practice html, css and js.
+# Github page for practice html, css and js
